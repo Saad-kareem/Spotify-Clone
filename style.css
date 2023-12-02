@@ -1,0 +1,257 @@
+
+#contain{
+    background-color: #000;
+    max-height: 100%;
+    min-width: 100%;
+}
+#side_bar{
+    position: fixed;
+    top: 0;
+    flex-wrap: wrap;
+    max-height: 80%;
+}
+i{
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#nav_bar{
+
+   background-color: #353333;
+    padding: 20px;
+    margin: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+#nav_bar a{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#nav_bar i{
+      font-size: larger;
+}
+#option1{
+    margin-top: 15px;
+}
+.library{
+    background-color: #353333;
+    border-radius: 5px;
+    margin: 5px;
+    margin-top: 7px;
+    min-height: 1500px;
+}
+#library_side{
+    font-size: 1.4rem;
+    color: #fff;
+     margin-top: 20px;
+     margin-left: 10px;
+         margin-bottom: 10px;
+
+}
+#lab-icon1{
+    margin-left: 230px;
+  
+}
+#lab-icon2{
+    margin-left: 30px;
+
+}
+#img1-library{
+     width: 30px;
+}
+.card{
+
+     padding: 10px;
+     margin: 10px;
+     margin-top: 1.4rem;
+     background-color: #837a7a;
+}
+.card p{
+    color: #fff;
+}
+.card-title{
+    font-size: larger;
+    color: #fff
+}
+.card-text{
+    color: #fff;
+}
+.card button{
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 5px;
+}
+#main-content{
+      
+    background-color: #353333;
+    border-radius: 10px;
+    min-height: 100%;
+    flex-wrap: wrap;
+}
+#content1{
+    padding-top: 15px;
+    padding-left: 10px;
+}
+#btn{
+    margin-left: 700px;
+    padding: 4px;
+    border-radius: 30px;
+}
+#content1 a{
+      margin-left: 8px;
+      border: 1px solid #353333;
+      padding:4px ;
+      border-radius: 10px;
+} 
+#content1 i{
+    margin-left: 10px;
+}
+#cont-img1{
+    background-color: #000;
+      border-radius: 50%;
+      padding: 4px;
+}
+#cont-img2{
+    background-color: #000;
+      border-radius: 50%;
+      padding: 4px;
+}
+#heading{
+    margin-top: 20px;
+    color: #fff;
+}
+#main-card1{
+    width: 300px;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+#nav_link{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+     margin-top: 50px;
+     margin-bottom: 50px;
+}
+#nav_link li{
+  list-style: none;
+}
+#nav_link a:hover{
+    color: bisque;
+
+}
+.footer{
+    height: 300px;
+}
+.line{
+    width: 97%;
+    height: 30%;
+    border-top: 1px solid #fff;
+    opacity: 0.4;
+}
+#foot_link{
+    display: flex;
+    justify-content: start;
+    margin-top: 40px;
+    
+}
+#foot_link a{
+   margin-left: 15px;
+}
+#foot_link li{
+    list-style: none;
+}
+.foot-logo{
+    margin-left: 300px;
+    color: #fff;
+}
+#foot{
+    width: 100%;
+        background-color: #000;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+}
+ .music-player{
+    background-color:#000;
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .player-control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .player-control-icon{
+    height: 1rem;
+    margin-right: 1.75rem;
+    opacity: 0.7;
+ }
+ .player-control-icon:hover{
+     opacity: 1;
+ }
+ .album{
+    width: 25%;
+   
+ }
+ .player{
+    width: 50%;
+
+ }
+ .control{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+    
+ }
+ .playback-bar{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .progress-bar{
+    color: wheat;
+    width: 70%;
+    appearance: none;
+    cursor: pointer;
+ }
+ .progress-bar::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.2rem;
+ }
+ .progress-bar::-webkit-slider-thumb{
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    background-color: #0feb60;
+    border-radius: 50%;
+    margin-top: -6px;
+ }
+ .out-law{
+    display: flex;
+    justify-content: start;
+ }
+ .out-law h3{
+     color: #fff;
+     margin-top: 15px;
+ }
+ .out-law img{
+    width: 70px;
+    border-radius: 10px;
+    margin-right: 20px;
+ }
+
+
+
+
